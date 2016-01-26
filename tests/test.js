@@ -32,8 +32,12 @@ describe('cal', () => {
       it('returns 2014 for Jan 2015', () => {
         expect(zellers.modifiedYear(2015, 1)).to.equal(2014);
       });
-      // 2016, 2 === 2015
-      // 2017, 3 === 2017
+      it('returns 2015 for Feb 2016', () => {
+        expect(zellers.modifiedYear(2016, 2)).to.equal(2015);
+      });
+      it('returns 2017 for March 2017', () => {
+        expect(zellers.modifiedYear(2017, 3)).to.equal(2017);
+      });
     });
 
     describe('.getDay', () => {
