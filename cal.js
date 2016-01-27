@@ -14,4 +14,5 @@ if (args.length === 2) {
   console.log(`generateYear(${year})`);
 } else {
   console.log('dun broke it');
+  process.exit(64);
 }
