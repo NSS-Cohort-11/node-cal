@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node  --harmony_destructuring --harmony_rest_parameters
 
 'use strict';
 
